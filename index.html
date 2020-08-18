@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome kit cdn -->
+    <script src="https://kit.fontawesome.com/26ff3c22a6.js" crossorigin="anonymous"></script>
+    <!-- Local Style sheets injection -->
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Talentera</title>
+  </head>
+  <body>
+    <!-- top arrow button -->
+    <button onclick="topFunction()" id="upBtn" title="Go to top"><i class="fas fa-arrow-circle-up" style="color: #ffffff;"></i></button>
+    <!-- Navbar -->
+    <div class="topnav" id="myTopnav">
+      <a href="#" class="active"><i class="fas fa-home" style="color: #ffffff;"></i> Logo</a>
+      <a href="#team">Team</a>
+      <a href="#work">Work</a>
+      <a href="#price">Price</a>
+      <a href="#contact">Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Dropdown
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">One <i class="far fa-smile-beam"></i></a>
+          <a href="#">Two <i class="far fa-laugh-squint"></i></a>
+          <a href="#">Three <i class="far fa-laugh-beam"></i></a>
+        </div>
+      </div>
+      <!-- Nav function -->
+      <a href="javascript:void(0);" style="font-size: 15px;" class="icon" onclick="navFunction()">&#9776;</a>
+    </div>
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="hero-content">
+        <button type="button" class="hero-button">
+          Talentera
+        </button>
+      </div>
+    </section>
+    <!-- Team section -->
+    <section id="team">
+      <div class="centered-team">
+        <h1>OUR TEAM</h1>
+        <small>Meet the team - our office rats:</small>
+      </div>
+      <div class="flexbox">
+        <div class="center">
+          <img src="./assets/img/loosen-tight-glasses.png" alt="employee" class="avatar" />
+          <h3>Sawsan topkek</h3>
+          <small>Software Engineer</small>
+        </div>
+        <div class="center">
+          <img src="./assets/img/loosen-tight-glasses.png" alt="employee" class="avatar" />
+          <h3>Sawsan topkek</h3>
+          <small>Software Engineer</small>
+        </div>
+        <div class="center">
+          <img src="./assets/img/loosen-tight-glasses.png" alt="employee" class="avatar" />
+          <h3>Sawsan topkek</h3>
+          <small>Software Engineer</small>
+        </div>
+        <div class="center">
+          <img src="./assets/img/loosen-tight-glasses.png" alt="employee" class="avatar" />
+          <h3>Sawsan topkek</h3>
+          <small>Software Engineer</small>
+        </div>
+      </div>
+    </section>
+    <!-- Work section -->
+    <section id="work">
+      <div class="flexbox">
+        <div class="center">
+          <div class="alignment">
+            <h1>Our work</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio unde ullam possimus saepe delectus error quisquam accusantium nobis. Officia doloribus eius distinctio. Dolor veniam voluptatum tempore accusamus. Aperiam, asperiores
+              ad?Ullam quisquam, similique hic odio quam dolore eveniet tenetur ad, possimus veritatis nulla dolores in inventore, impedit saepe tempora provident cum vel nemo maxime magni minima illum dicta dolorum. Laborum?
+            </p>
+          </div>
+        </div>
+        <div class="center">
+          <div class="card">
+            <img src="./assets/img/aurora.jpg" alt="Avatar" style="width: 100%;" />
+            <div class="containerrrr">
+              <h4><b>Customer 1</b></h4>
+              <p>Trade</p>
+              <p>blablabla</p>
+              <p>blablabla</p>
+              <p>blablabla</p>
+              <p>blablabla</p>
+            </div>
+          </div>
+        </div>
+        <div class="center">
+          <div class="card">
+            <img src="./assets/img/aurora.jpg" alt="Avatar" style="width: 100%;" />
+            <div class="containerrrr">
+              <h4><b>Customer 2</b></h4>
+              <p>Trade</p>
+              <p>blablabla</p>
+              <p>blablabla</p>
+              <p>blablabla</p>
+              <p>blablabla</p>
+            </div>
+          </div>
+        </div>
+        <div class="center">
+          <div class="card">
+            <img src="./assets/img/aurora.jpg" alt="Avatar" style="width: 100%;" />
+            <div class="containerrrr">
+              <h4><b>Customer 3</b></h4>
+              <p>Trade</p>
+              <p>blablabla</p>
+              <p>blablabla</p>
+              <p>blablabla</p>
+              <p>blablabla</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="column-2 box">
+          <div class="leftie">
+            <h1 class="contact-us">Contact Us</h1>
+            <h3>Address</h3>
+            <p>Swing by for a cup of coffee or whatever.</p>
+            <p><i class="fas fa-map-marker-alt"></i><a href="#">Amman - Jordan.</a></p>
+            <p><i class="fas fa-phone-alt"></i><a href="tel:+962790000000">962790000000</a></p>
+            <p><i class="far fa-envelope"></i><a href="mailto:test@test.com">Test@test.com</a></p>
+          </div>
+        </div>
+        <div class="column-1 box">
+          <div class="contactCard">
+            <form action="">
+              <div class="group">
+                <input type="text" required class="materialInput" />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Name</label>
+              </div>
+
+              <div class="group">
+                <input type="text" required class="materialInput" />
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Email</label>
+              </div>
+              <div class="group">
+                <textarea name="" id="" cols="3" rows="3" class="materialInput"></textarea>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Message</label>
+              </div>
+            </form>
+
+            <div class="container">
+              <div class="column-1"><input type="checkbox" name="" id="" /> I like it!</div>
+              <div class="column-2">
+                <button type="submit" class="hero-button">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Social media footer -->
+    <footer>
+      <br />
+      <p>Follow Us</p>
+      <span><i class="fab fa-facebook-square"></i></span>
+      <span><i class="fab fa-twitter-square"></i></span>
+      <span><i class="fab fa-google-plus-square"></i></span>
+      <span><i class="fab fa-instagram-square"></i></span>
+      <span><i class="fab fa-linkedin"></i></span>
+    </footer>
+    <!-- Local JavaScript file injection -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
