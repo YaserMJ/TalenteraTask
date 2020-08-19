@@ -222,6 +222,16 @@ body {
   filter: brightness(60%);
 }
 
+.hero-content {
+  position: absolute;
+  bottom: 20px;
+  left : 15px;
+  font-family: "Monserrat", sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0.625rem;
+}
+
 @media (min-width: 641px) and (max-width: 1024px) {
   .hero-bg {
     background: url("../assets/img/p3151152.jpg") no-repeat center center;
@@ -444,6 +454,10 @@ label {
   transition: 0.3s;
   padding-left: 30px;
 }
+.contact-button{
+  margin-left: 230px;
+}
+
 /* [6] Arrow button settings ======================================= */
 
 #upBtn {
